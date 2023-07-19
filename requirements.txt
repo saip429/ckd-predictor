@@ -1,0 +1,7 @@
+django
+django-environ
+joblib
+numpy
+pandas
+scikit-learn
+warnings

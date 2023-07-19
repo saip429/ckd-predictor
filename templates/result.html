@@ -1,0 +1,33 @@
+{% extends 'main.html' %}
+{% block content %}
+{% if prediction != '' %}
+
+<div class='home--cnt'>
+    <div class="patient--results">
+        <span class="patient--results--heading">Analysis Results</span>
+        <div class="result--grid">
+            {% for field in form %}
+            <span class="result--label">{{field.label}}</span>
+            <span class="result--value">{{field.value}}</span>
+
+
+            {% endfor %}
+        </div>
+
+        <div class='prediction--label'>
+            prediction: {{prediction}}
+
+        </div>
+        <div class="back--label">
+            <a href="{% url 'home' %}">home</a>
+        </div>
+    </div>
+
+
+
+</div>
+
+{% endif %}
+
+
+{% endblock content %}

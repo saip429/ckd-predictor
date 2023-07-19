@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    text-align: center;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    background-color: rgba(231, 48, 48, 0.85);
+    color: white;
+    font-size: x-large;
+}
+
+.navbar:hover {
+    background-color: rgba(231, 48, 48, 1);
+}
+
+.home--cnt {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(224, 172, 172), rgb(224, 91, 91));
+}
+
+.input--form {
+    width: 70%;
+    padding: 0.2rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px inset black;
+    overflow: hidden;
+
+}
+
+.input--form>label {
+
+
+
+    font-size: x-large;
+}
+
+.input--form>input {
+    margin: 0.5rem;
+    padding: 0.25rem;
+}
+
+.submit--btn {
+    margin: 0%;
+    width: 80%;
+    padding: 0.25rem;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-size: x-large;
+
+}
+
+.reset--btn {
+    margin: 0%;
+    width: 80%;
+    padding: 0.25rem;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    background-color: green;
+    font-size: x-large;
+}
+
+.prediction--label {
+    width: max-content;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 0.5rem;
+    padding: 0.25rem;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+
+
+
+.patient--results {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    padding: 0.5rem;
+    border: 1px ridge black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.patient--results--heading {
+
+    font-size: xx-large;
+    color: black;
+}
+
+.result--grid {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr 1fr);
+}
+
+.back--label {
+    width: max-content;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 0.5rem;
+    padding: 0.25rem;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: blue;
+
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+
+.back--label a {
+    color: white;
+    text-decoration: none;
+}
