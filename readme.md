@@ -11,5 +11,5 @@ To run the project download dependencies by running:
 #### pip install requirements.txt  
 trained model along with dataset avaiable in the ./models directory  
 app screenshots:  
-![img](/images/fend1.png)  
-![img](/images/fend2.png)  
+![img](images/fend1.png)  
+![img](images/fend2.png)  
