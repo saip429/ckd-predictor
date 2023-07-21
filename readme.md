@@ -14,5 +14,6 @@ Technologies used:
 > #### python manage.py runserver
 trained model along with dataset avaiable in the ./models directory  
 app screenshots:  
-![img](images/fend1.png)  
-![img](images/fend2.png)  
+![fend1](https://github.com/saip429/ckd-predictor/assets/87996749/74e2655e-b1b6-4788-891b-13f670864ab8)
+
+![fend2](https://github.com/saip429/ckd-predictor/assets/87996749/1822a557-05eb-450f-9410-2ddca8c10dcf)
